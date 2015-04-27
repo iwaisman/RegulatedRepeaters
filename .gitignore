@@ -2,3 +2,4 @@
 *.iml
 .idea
 .npmignore
+node_modules
