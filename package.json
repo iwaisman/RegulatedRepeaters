@@ -1,0 +1,35 @@
+{
+  "name": "regulatedrepeaters",
+  "version": "0.0.1",
+  "description": "Allows for the ez creation of repeated processes governed by flexible repetition policies.",
+  "license": "MIT",
+  "keywords": [ "repeater"],
+  "homepage": "https://github.com/iwaisman/RegulatedRepeaters",
+  "author": {
+    "name": "Idan Waisman",
+    "email": "idanwaisman@gmail.com",
+    "url": "https://github.com/iwaisman"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iwaisman/RegulatedRepeaters.git"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "moment": "*",
+    "lodash": "^3.7.0",
+    "bluebird": "^2.9.13",
+    "mocha": "^2.2.4",
+    "should": "^5.0.1"
+  },
+  "maintainers": [
+    {
+      "name": "iwaisman",
+      "email": "idanwaisman@gmail.com"
+    }
+  ],
+  "scripts": {
+    "test": "mocha -R spec -b --recursive"
+  }
+}
