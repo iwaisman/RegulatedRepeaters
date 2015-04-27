@@ -16,9 +16,9 @@
   },
   "main": "./index.js",
   "dependencies": {
+    "moment": "*",
   },
   "devDependencies": {
-    "moment": "*",
     "lodash": "^3.7.0",
     "bluebird": "^2.9.13",
     "mocha": "^2.2.4",
